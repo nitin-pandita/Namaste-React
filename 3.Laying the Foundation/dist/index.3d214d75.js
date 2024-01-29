@@ -2967,7 +2967,80 @@ const jsxSyntax = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
     columnNumber: 19
 }, undefined);
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-root.render(jsxSyntax);
+// react element
+const ele = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+    children: "React Element"
+}, void 0, false, {
+    fileName: "index.js",
+    lineNumber: 20,
+    columnNumber: 13
+}, undefined);
+const title = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+        children: "Welcome to title"
+    }, void 0, false, {
+        fileName: "index.js",
+        lineNumber: 24,
+        columnNumber: 5
+    }, undefined)
+}, void 0, false, {
+    fileName: "index.js",
+    lineNumber: 23,
+    columnNumber: 3
+}, undefined);
+// React Components
+// Class Based Components : Later were used
+// Functional Components : New way of writing code
+const TitleComponent = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+        className: "heading-welcome",
+        children: " Welcome to the Title Component"
+    }, void 0, false, {
+        fileName: "index.js",
+        lineNumber: 34,
+        columnNumber: 3
+    }, undefined);
+_c = TitleComponent;
+const numbers = 10;
+const HeadingComponent = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        id: "container",
+        children: [
+            title,
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                children: 56 * numbers
+            }, void 0, false, {
+                fileName: "index.js",
+                lineNumber: 43,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(TitleComponent, {}, void 0, false, {
+                fileName: "index.js",
+                lineNumber: 44,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                children: "Namasta Heading Components"
+            }, void 0, false, {
+                fileName: "index.js",
+                lineNumber: 45,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "index.js",
+        lineNumber: 41,
+        columnNumber: 5
+    }, undefined);
+};
+_c1 = HeadingComponent;
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeadingComponent, {}, void 0, false, {
+    fileName: "index.js",
+    lineNumber: 50,
+    columnNumber: 13
+}, undefined));
+var _c, _c1;
+$RefreshReg$(_c, "TitleComponent");
+$RefreshReg$(_c1, "HeadingComponent");
 
   $parcel$ReactRefreshHelpers$e4e3.postlude(module);
 } finally {
