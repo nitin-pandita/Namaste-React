@@ -1,0 +1,42 @@
+{
+  "name": "reactlearning",
+  "version": "1.0.0",
+  "description": "Welcome to react js leanring",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitin-pandita/Namaste-React.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs"
+  ],
+  "author": "Nitin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitin-pandita/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/nitin-pandita/Namaste-React#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 2 chrome versions"
+    ]
+  }
+}
