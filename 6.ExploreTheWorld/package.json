@@ -1,0 +1,27 @@
+{
+  "name": "6.exploretheworld",
+  "version": "1.0.0",
+  "description": "react js exploring the world",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [
+    "reactjs",
+    "getting",
+    "started",
+    "introduction"
+  ],
+  "author": "Nitin",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  }
+}
