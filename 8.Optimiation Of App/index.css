@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 6px #ccc;
+}
+
+.logo {
+    width: 80px;
+}
+
+.nav-items ul li {
+    list-style: none;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.Card-container {
+    transition: 0.1s ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.res-card {
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+}
+
+.res-card:hover{
+    border: 1px solid #000;
+    cursor: pointer;
+    box-shadow: 0 0 16px #ccc;
+}
+.search {
+    padding: 10px;
+}
+
+.res-logo {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 6%;
+}
+
+/* component styling */
+
+.filter-btn {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.shimmer-container {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shimmer {
+    height: 700px;
+    width: 700px;
+    margin: 20px;
+    background: grey;
+    background-image: linear-gradient(
+        to right,
+        #f6f7f8 0%,
+        #edeef1 20%,
+        #f6f7f8 40%,
+        #f6f7f8 100%
+    );
+}
+
+.resContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+}
+
+
+
+.resContainer ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.user-card {
+    font-size: 24px;
+    height: auto;
+    width: 250px;
+    background: #f0f0f0;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+
+.offline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
