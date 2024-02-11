@@ -33,6 +33,9 @@ const Header = () => {
             <Link to="/order">Order</Link>
           </li>
           <li>
+            <Link to="/grocery">Grocery</Link>
+          </li>
+          <li>
             <Link to="/about">About</Link>
           </li>
           <button className="btn" onClick={toggleBtn}>
