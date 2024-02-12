@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.spin-large .ant-spin-dot {
+  font-size: 78px; /* Adjust the font size as needed to make the spinner larger */
+}
+
+.search {
+  width: 20%;
+}
